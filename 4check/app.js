@@ -9,7 +9,7 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-  from: 'usted mismo',
+  from: 'usted-mismo@misterio.com',
   to: 'carlosmaccarrone@gmail.com',
   subject: 'EL TÍTULO DEL EMAIL',
   text: 'Aquí puedo envíar texto o código html'
